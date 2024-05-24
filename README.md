@@ -12,7 +12,7 @@ Installation
 
 Clone the repository:
 
-bash
+
 
 	git clone https://github.com/dheerajbalan/arpguardian.git
 
@@ -22,7 +22,7 @@ Install the required dependencies:
 
 Usage
 
-csharp
+
 
 	sudo python arpguardian.py -i <interface>
 
