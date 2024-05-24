@@ -4,15 +4,15 @@ ARP Guardian
 ARP Guardian is a simple tool to detect ARP spoofing attacks on your network.
 Features
 
-    Detect ARP spoofing attacks
-    Provide real-time alerts when an attack is detected
-    Easy-to-use command-line interface
+Detect ARP spoofing attacks
+Provide real-time alerts when an attack is detected
+Easy-to-use command-line interface
 
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-    bash
+bash
 
 	git clone https://github.com/dheerajbalan/arpguardian.git
 
