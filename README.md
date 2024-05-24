@@ -24,7 +24,7 @@ Usage
 
 csharp
 
-	python arpguardian.py -i <interface>
+	sudo python arpguardian.py -i <interface>
 
 Replace <interface> with the network interface you want to monitor for ARP spoofing attacks.
 Contributing
