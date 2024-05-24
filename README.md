@@ -27,12 +27,7 @@ Usage
 	sudo python arpguardian.py -i <interface>
 
 Replace <interface> with the network interface you want to monitor for ARP spoofing attacks.
-Contributing
 
-Contributions are welcome! Please feel free to fork the repository and submit pull requests with your improvements.
-License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 Acknowledgments
-
-Special thanks to the Scapy and Colorama projects for their amazing libraries.
