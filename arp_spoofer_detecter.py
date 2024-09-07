@@ -51,8 +51,9 @@ def detect_arp_spoof(packet):
             if legitimate_ip[source_ip] != source_mac:
                 print(red + "[!] ARP spoofing detected...")
                 print(yellow + f"Spoofing detected from IP {source_ip} with MAC {source_mac}")
-                print(cyan + f"Attacker's real IP: {source_ip}")
-                print(cyan  + f"Attacker's real MAC: {legitimate_ip[source_ip]}")
+                print(cyan + f"victim's real IP: {source_ip}")
+                print(cyan  + f"victim's real MAC: {legitimate_ip[source_ip]}")
+                print(cyan  + f"Attacker's MAC (spoofing as {source_ip}): {source_mac}")
                 get_os(source_ip)
                 safe_printed = False
             elif not safe_printed:
